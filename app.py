@@ -20,5 +20,17 @@ student_user = st.text_input("Enter your name:")
 if student_user:
     st.write("Welcome to the AI application,", student_user, "!")
 st.write("---")
+# ====================================================================
+# UPDATED FEATURE: SHOW DETAILS BUTTON (SECTION E)
+# ====================================================================
+st.header("Academic Profile")
+
+# Create the button named "Show Details"
+if st.button("Show Details"):
+    # On clicking the button, display the student details
+    st.write("Student Name:", "Sanvi")
+    st.write("Class:", "Class 12")
+    st.write("Section:", "E")  # Section updated to E
+st.write("---")
 
 
